@@ -1,13 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #efe
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.square{
+  width: 80px;
+  height: 80px;
+  margin: 2px;
+  float: left;
+  background-color: #fff;
+  font-size: 30px;
+  line-height: 80px;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 5px
+}
+
+.board-row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game-board{
+  padding: 2px;
+  width: 336px;
+  border-radius: 5px;
+  background-color: #444;
+  margin: 10% auto
+}
+
+#title{
+  font-weight: 400;
+  text-align: center
+}
+
+.num-0{
+  background-color: #fee
+}
+
+.num-2{
+  background-color: #def
+}
+
+.num-4{
+  background-color: #bdf
+}
+
+.num-8{
+  background-color: #9cf
+}
+
+.num-16{
+  background-color: #7bf
+}
+
+.num-32{
+  background-color: #5af
+}
+
+.num-64{
+  background-color: #39f
+}
+
+.num-128{
+  background-color: #18f
+}
+
+.num-256{
+  background-color: #17e
+}
+
+.num-512{
+  background-color: #16d
+}
+
+.num-1024{
+  background-color: #15c
+}
+
+.num-2048{
+  background-color: #14b
 }
