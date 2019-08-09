@@ -46,49 +46,49 @@ code {
 }
 
 .num-0{
-  background-color: #fee
+  background-color: #fff
 }
 
 .num-2{
-  background-color: #def
+  background-color: rgb(235,235,255);
 }
 
 .num-4{
-  background-color: #bdf
+  background-color: rgb(215,215,255);
 }
 
 .num-8{
-  background-color: #9cf
+  background-color: rgb(195,195,255);
 }
 
 .num-16{
-  background-color: #7bf
+  background-color: rgb(175,175,255);
 }
 
 .num-32{
-  background-color: #5af
+  background-color: rgb(155,155,255);
 }
 
 .num-64{
-  background-color: #39f
+  background-color: rgb(135,135,255);
 }
 
 .num-128{
-  background-color: #18f
+  background-color: rgb(115,115,255);
 }
 
 .num-256{
-  background-color: #17e
+  background-color: rgb(95,95,255);
 }
 
 .num-512{
-  background-color: #16d
+  background-color: rgb(75,75,255);
 }
 
 .num-1024{
-  background-color: #15c
+  background-color: rgb(55,55,255);
 }
 
 .num-2048{
-  background-color: #14b
+  background-color: rgb(35,35,255);
 }
